@@ -1,0 +1,24 @@
+.right {
+    float:right;
+}
+a:hover {
+    text-decoration:none;
+}
+.reply-form {
+    margin-top:66px;
+}
+
+.vote-part {
+    margin-left:100px;
+    margin-right:-100px;
+    margin-top:5px;
+}
+.vote-icon {
+    margin-right:10px;
+}
+.vote-icon:hover {
+    cursor:pointer;
+}
+#vote-count {
+    font-size:25px;
+}
