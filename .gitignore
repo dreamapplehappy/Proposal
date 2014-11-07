@@ -8,3 +8,5 @@ composer.lock
 Thumbs.db
 *.swp
 *.swo
+/app/config/*
+/bootstrap/start.php
