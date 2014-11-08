@@ -44,6 +44,10 @@
     </div>
     {{ Form::close()  }}
     <hr />
+      @if(Session::get('msg'))
+            <div class="msg">{{Session::get('msg')}}</div>
+      @endif
+    <hr />
            您还没有注册！ <a href="{{ route('signup') }}" >点击我注册</a>
     </section>
     <!-- form end -->

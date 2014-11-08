@@ -28,10 +28,15 @@ body{
     border: 0px;
     color: white;
 }
-.navbar-brand{
+ .navbar-brand{
   color: #333 !important;
   font-size: 20px;
 }
+
+.icon-home{
+  font-size: 30px;
+} 
+
 .navbar-nav>li>a{
   font-size: 20px;
   color: white !important;
@@ -39,9 +44,7 @@ body{
 .navbar-nav>li>a:hover{
   color: black !important;
 }
-.container{
-    margin-top: 80px;
-}
+
 
 footer {
     position:relative;

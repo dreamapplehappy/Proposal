@@ -29,6 +29,10 @@ ______                            _              _                              
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
     <link rel="stylesheet" href="{{ asset('css/animate.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/iconvault/iconvault-preview.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/containter.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/register-login.css')}}">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css')}}">
     @yield('styles')
 </head>
 <body>
@@ -42,6 +46,9 @@ ______                            _              _                              
 <script src="{{ asset('js/headroom.js') }}"></script>
 <script src="{{ asset('js/jquery.headroom.js') }}"></script>
 <script src="{{ asset('js/nav.js') }}"></script>
+<script src="{{ asset('js/location.array.js') }}"></script>
+<!-- <script src="{{ asset('js/show.chart.js') }}"></script> -->
+<!-- <script src="{{ asset('js/time.animation.js') }}"></script> -->
    @yield('scripts')
 </body>
 </html>
