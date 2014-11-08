@@ -149,6 +149,10 @@ form.form-horizontal{
 	margin: 0 auto;
 	width: 600px;
 }
+input.form-control{
+	height: 30px !important;
+	line-height: 16px;
+}
 .form-group{
 	margin: 20px auto !important;
 }

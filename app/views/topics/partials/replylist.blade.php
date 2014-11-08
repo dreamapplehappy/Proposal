@@ -1,5 +1,5 @@
 <br/>
-<h2><i class="icon-comments-alt"></i>   {{ $topic->reply_count }} 个讨论</h2>
+<h2 class="hello"><i class="icon-comments-alt"></i>   {{ $topic->reply_count }} 个讨论</h2>
 <section class="reply-list">
     @foreach($replies as $reply)
     <div class="panel panel-success">

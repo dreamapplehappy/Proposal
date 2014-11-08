@@ -1,11 +1,12 @@
 @extends('layouts.default')
 
 @section('title')
-@parent
+Yours @parent
 @stop
 
 @section('styles')
 <!-- <link rel="stylesheet" href="{{ asset('css/input.css')}}"> -->
+<link rel="stylesheet" href="{{ asset('css/create.css') }}">
 @stop
 
 @section('body')
@@ -16,13 +17,16 @@
 
 	{{ Form::hidden('user_id',Auth::id()) }}
 	<div class="form-group my-title">
+		<span class="span title">提议标题</span>
 		{{ Form::text('title', isset($topic)?$topic->title:null, array('class' => 'form-control', 'placeholder' => '提议标题')) }}
 	</div>
 	<div class="form-group my-deadline">
-		{{ Form::text('title', isset($topic)?$topic->title:null, array('class' => 'form-control', 'placeholder' => '截止日期(?)')) }}
+		<span class="span deadline">截止日期</span>
+		{{ Form::text('title', isset($topic)?$topic->title:null, array('class' => 'form-control', 'placeholder' => '截止日期')) }}
 	</div>
 	<div class="form-group my-content" id="editor">
-		<textarea v-model="input" name="body" class="form-control" rows="15" placeholder ="您想说点什么呢。。。。。。">{{{ isset($topic)?$topic->body:null }}}</textarea>
+		<span class="span content">提议内容</span>
+		<textarea v-model="input" name="body" class="form-control" rows="15" placeholder ="提议内容">{{{ isset($topic)?$topic->body:null }}}</textarea>
 		<div v-html="input | marked"></div>
 	</div>
 	<div class="form-group">
@@ -33,4 +37,5 @@
 @stop
 
 @section('scripts')
+<script src="{{ asset('js/span.js') }}"></script>
 @stop

@@ -1,0 +1,16 @@
+nav.navbar{background-image: url("../images/bg-2.jpg") !important;}
+body{background-image: url("../images/bg-2.jpg") !important;}
+form div.form-group span{
+	float: right;
+	width: 100px;
+	height: 30px;
+	margin-right: 0;
+	margin-bottom: -30px;
+	border-left: 2px solid red;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	background: linear-gradient(45deg, #FFF, #666);
+	cursor: pointer;
+	display: none;
+}

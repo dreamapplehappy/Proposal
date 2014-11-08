@@ -17,9 +17,7 @@
 .headroom--pinned {top: 0;}  
 
 body{
-    /* background-image: url('../images/bg.jpg') ; */
     background: linear-gradient(90deg, #FFF, #333);
-    height: 1000px;
 }
 .navbar{
     position: fixed;
