@@ -25,6 +25,7 @@ ______                            _              _                              
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="BirdEggegg">
     <meta name="description" content="">
+    <!-- <meta http-equiv="Page-Enter" content="RevealTrans(duration=5,Transitionv=11)"> -->
 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">

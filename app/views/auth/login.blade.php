@@ -56,5 +56,6 @@
 @stop
 
 @section('scripts')
+<!-- <script src="{{ asset('js/asd.js') }}"></script> -->
 @stop
 
