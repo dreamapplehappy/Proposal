@@ -14,7 +14,7 @@
     <div class="topics-list">
     <div class="fc"><i class="icon-flag"></i>  还没有过期的提议</div>
     <hr />
-    @foreach($topics as $topic)
+    @foreach($topics_not_pass as $topic)
     <section class="list-group">
     <div href="#" class="list-group-item">
         <div class="badge">{{ $topic->vote_count }} <i class="icon-like size-20"></i></div>
@@ -28,7 +28,7 @@
 </div>
 <div class="row">
 <div class="col-md-7 col-md-offset-5">
-    {{ $topics->links() }}
+    {{ $topics_not_pass->links() }}
 </div>
 </div>
 <div id="show_time">
@@ -41,7 +41,7 @@
 <div class="col-md-8 col-md-offset-2">
     <div class="topics-list">
     <div><i class="icon-flag"></i></div>
-    @foreach($topics as $topic)
+    @foreach($topics_pass as $topic)
     <section class="list-group">
     <div href="#" class="list-group-item">
         <div class="badge">{{ $topic->vote_count }} <i class="icon-like size-20"></i></div>
@@ -55,7 +55,7 @@
 </div>
 <div class="row">
 <div class="col-md-7 col-md-offset-5">
-    {{ $topics->links() }}
+    {{ $topics_pass->links() }}
 </div>
 </div>
 @stop
