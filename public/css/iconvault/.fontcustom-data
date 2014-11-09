@@ -1,0 +1,18 @@
+{
+  "fonts": [
+    "iconvault_f5c6bc789a88b2a3858b45c990e61972.ttf",
+    "iconvault_f5c6bc789a88b2a3858b45c990e61972.woff",
+    "iconvault_f5c6bc789a88b2a3858b45c990e61972.eot",
+    "iconvault_f5c6bc789a88b2a3858b45c990e61972.svg"
+  ],
+  "templates": [
+    "iconvault-preview.html",
+    "iconvault-preview.css"
+  ],
+  "file_name": "iconvault_f5c6bc789a88b2a3858b45c990e61972",
+  "glyphs": [
+    "like",
+    "dislike",
+    "heart"
+  ]
+}

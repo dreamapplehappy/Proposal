@@ -5,7 +5,7 @@
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
         <span class="sr-only">Toggle navigation</span>
       </button>
-      <a class="navbar-brand" href="{{ route('home') }}">首页</a>
+      <a class="navbar-brand" href="{{ route('home') }}"><i class="icon-home size-20"></i></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->

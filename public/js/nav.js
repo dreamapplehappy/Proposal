@@ -9,4 +9,12 @@ $(function(){
 			"unpinned": "slideUp"
 		}
 	}*/
+	//alert($("#show_time").width());
+	$canvas = $("canvas");
+	$(".navbar").click(function(){
+		$("canvas").remove();
+	});
+	$("#show_time").click(function(){
+		$(this).append($canvas);
+	})
 });

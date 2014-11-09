@@ -1,0 +1,173 @@
+.container{
+    margin-top: 80px;
+}
+.badge{
+	display: block;
+	width: 60px !important;
+	height: 30px !important;
+	line-height: 20px !important;
+	float: right !important;
+	border-radius: 5px !important;
+  	background: linear-gradient(90deg, #333, #FFF);
+  	color: black;
+  	font-size: 20px;
+}
+.list-group-item-heading{
+	font-size: 20px !important;
+}
+.glyphicon-fire{
+	color: rgb(238, 68, 0) !important;
+}
+
+.list-group-item-text{
+	font-size: 15px !important;
+	color: #333 !important;
+}
+
+.list-group{border-left: 3px solid red;
+	box-shadow: 10px 10px 10px #333;}
+.list-group-item{border-radius: 0px !important;
+	background: linear-gradient(90deg, rgb(221, 187, 255), rgb(187, 255, 17));
+}
+
+.list-group-item-heading{
+	display: block;
+}
+
+.fc{
+  height: 20px;
+  font-size: 20px;
+}
+
+.icon-flag{
+  font-size: 30px;
+  margin-left: -30px;
+  color: rgb(136, 102, 238);
+}
+
+hr{
+	border: 1px solid #999;
+}
+
+.pagination li.active span{
+	background-color: #000;
+}
+
+
+#show_time{
+  width: 100%;
+  height:80px;
+  background-color: ;
+}
+#canvas{
+  float: right;
+}
+
+.row-c{
+  margin-top: 30px;
+}
+
+.panel-heading{
+	font-size: 20px;
+	text-indent: 20px;
+}
+.panel-body{
+	padding-top: 0px !important;
+	font-size: 15px;
+}
+.panel-info{
+	box-shadow: -10px -10px 10px #333;
+}
+.progress{
+	background-color: #000;
+	/* background: linear-gradient(90deg, #FFF, #00F); */
+}
+.progress-bar{
+	background-color: red;
+}
+h2{
+	text-shadow: 5px 5px 8px #000;
+}
+.icon-comments-alt{
+	margin-left:  -80px;
+	font-size: 30px !important;
+}
+.icon-comment{
+	margin-left:  -80px;
+	font-size: 30px !important;
+}
+.reply{
+	margin-top: 0px;
+}
+
+.show-chart{
+	height: 200px;
+	background-color: ;
+}
+#show-chart{
+	margin: 0 auto;
+	border-radius: 100px;
+	position: absolute;
+	left:30%;
+}
+.explain{
+	margin-left: 50%;
+	width: 100px;
+	height: 66px;
+	float: left;
+}
+.explain div{
+	width: 100%;
+	height: 30px;
+}
+.explain div.support div{
+	width: 60%;
+	height: 100%;
+	float: right;
+	background-color: red;
+}
+.explain div.support i{
+	display: block;
+	float: left;
+	font-size: 25px;
+}
+div.show-space{
+	height: 6px;
+}
+.explain div.oppose div{
+	width: 60%;
+	height: 100%;
+	float: right;
+	background-color: black;
+}
+.explain div.oppose i{
+	display: block;
+	float: left;
+	font-size: 25px;
+}
+form.form-horizontal{
+	margin: 0 auto;
+	width: 600px;
+}
+input.form-control{
+	height: 30px !important;
+	line-height: 16px;
+}
+.form-group{
+	margin: 20px auto !important;
+}
+input.post-btn{
+	display: block;
+	margin: 0 auto;
+}
+
+.outer{
+	background: linear-gradient(90deg, rgb(0, 238, 0), rgb(17, 85, 255));
+	height: 3px;
+}
+.inner{
+	float: left;
+	width: 0px;
+	height: 3px;
+	background: linear-gradient(90deg, rgb(17, 85, 255), rgb(255, 17, 17));
+}

@@ -45,7 +45,7 @@ class AuthController extends BaseController {
            return Redirect::route('home')->withMsg('You have signed in!');
         }
 
-        return Redirect::back()->withMsg('Invalid login!');
+        return Redirect::back()->withMsg('对不起，您的用户名或者密码有错误！');
     }
 
     public function logout(){

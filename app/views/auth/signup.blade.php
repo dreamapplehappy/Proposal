@@ -11,6 +11,9 @@
 
 @section('body')
 <div class="row text-center pad-top ">
+    <div class="outer">
+            <div class="inner"></div>
+        </div>
     <header class="col-md-12">
         <h2>欢迎您注册</h2>
     </header>
@@ -64,4 +67,5 @@
 @stop
 
 @section('scripts')
+<script src="{{ asset('js/register.js') }}"></script>
 @stop
