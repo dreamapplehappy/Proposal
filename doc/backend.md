@@ -14,3 +14,10 @@
 * deadline datetime 0000-00-00 00:00:00
 * importance integer
 
+#profile页面
+url: /user/{id}
+name: user.show:
+视图文件放在users/profile.blade.php
+用户： $user
+提议: $topics
+
