@@ -37,6 +37,8 @@ class TopicController extends \BaseController {
         $topic->body = $data['body'];
         $topic->user_id = $data['user_id'];
         $topic->vote_count = 0;
+        $topic->deadline = $data['deadline'];
+        $topic->importance = $data['importance'];
 
         if($topic->save()){
             return Redirect::route('home');
